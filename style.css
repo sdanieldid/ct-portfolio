@@ -21,3 +21,15 @@ body {
     width: 300px;
     background-color: rgb(164, 82, 0);
 }
+
+.page-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
