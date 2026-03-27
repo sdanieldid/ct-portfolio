@@ -145,16 +145,14 @@ nav a:hover {
     color: white;
 }
 
-.delayed {
-    animation-delay: 0.5s;
-}
+.delayed {}
 
 .further-delayed {
-    animation-delay: 1s;
+    animation-delay: 0.75s;
 }
 
 .even-further-delayed {
-    animation-delay: 1.5s;
+    animation-delay: 0.75s;
 }
 
 .reflection-title {
@@ -172,4 +170,21 @@ nav a:hover {
 .reflection-title p {
     font-size: 16px;
     color: rgb(45, 85, 70);
+}
+
+.footer-square {
+    padding: 10px 20px;
+    background-color: rgb(40, 100, 85);
+    border: 3px solid rgb(100, 160, 130);
+    gap: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 0 0;
+    box-sizing: border-box;
+}
+
+.footer-content {
+    font-weight: bold;
+    text-align: center;
 }
