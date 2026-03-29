@@ -1,8 +1,18 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Kumbh Sans", "Noto Sans", Arial, Helvetica, sans-serif;
     background-image: linear-gradient(to right, rgb(220, 245, 230), rgb(150, 210, 180));
     margin: 0;
     padding: 0;
+}
+
+
+.kumbh-sans-body {
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "YOPQ" 300;
 }
 
 .centre-square {
@@ -17,7 +27,7 @@ body {
 }
 
 .intro {
-    font-family: sans-serif;
+    font-family: "Noto Sans", sans-serif;
     border: 3px solid rgb(150, 210, 180);
     height: 250px;
     width: 2500px;
@@ -36,6 +46,14 @@ body {
     font-weight: normal;
 }
 
+p {
+    margin: 20px auto;
+    max-width: 800px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: rgb(60, 120, 100);
+}
+
 .bio {
     text-align: center;
     margin: 30px auto;
@@ -50,6 +68,22 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+
+.nabla-page-layout {
+    font-family: "Nabla", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "EDPT" 100,
+        "EHLT" 12;
 }
 
 header {
@@ -63,9 +97,14 @@ header {
 }
 
 header h1 {
+    font-family: "Nabla", "Blaka Ink", "Dancing Script", cursive;
+    font-weight: 400;
+    letter-spacing: 0.05em;
     color: white;
     margin: 0;
 }
+
+
 
 nav {
     background-color: rgba(120, 180, 150, 0.9);
@@ -172,6 +211,14 @@ nav a:hover {
     color: rgb(45, 85, 70);
 }
 
+.reflection-title ul {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 600px;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
 .footer-square {
     padding: 10px 20px;
     background-color: rgb(40, 100, 85);
@@ -180,11 +227,12 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 0 0 0;
+    margin: 100px 0 0 0;
     box-sizing: border-box;
 }
 
 .footer-content {
+    font-family: "Noto Sans", sans-serif;
     font-weight: bold;
     text-align: center;
 }
