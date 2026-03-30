@@ -236,3 +236,12 @@ nav a:hover {
     font-weight: bold;
     text-align: center;
 }
+
+.screenshot {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid rgb(100, 160, 130);
+    border-radius: 10px;
+}
