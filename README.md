@@ -2,4 +2,11 @@ hello welcome to my portfolio website
 
 ============= JUST DOWNLOAD THE FOLDER AND OPEN THE FILE :) =================
 
-it should work if you have all of the files lol
+it should work if you have all of the files
+
+sdanieldid.github.io/ct-portfolio/  
+
+
+
+
+<33
