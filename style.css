@@ -124,7 +124,7 @@ nav a {
 }
 
 nav a:hover {
-    color: rgb(255, 200, 150);
+    color: rgb(255, 240, 200);
 }
 
 .project-container {
@@ -166,8 +166,8 @@ nav a:hover {
     height: 100px;
     margin: 20px;
     display: flex;
-    background-color: rgb(170, 220, 190);
-    border: 3px solid rgb(100, 160, 130);
+    background-color: rgb(80, 140, 110);
+    border: 3px solid rgb(60, 120, 90);
     animation-name: fadeInUp;
     animation-duration: 1s;
     animation-fill-mode: backwards;
@@ -176,10 +176,12 @@ nav a:hover {
     border-radius: 15px;
     text-decoration: none;
     transition: transform 0.3s ease, background-color 0.3s ease;
+    color: white;
+    font-weight: bold;
 }
 
 .box:hover {
-    background-color: rgb(150, 210, 180);
+    background-color: rgb(60, 120, 90);
     transform: scale(1.05);
     color: white;
 }
@@ -208,7 +210,7 @@ nav a:hover {
 
 .reflection-title p {
     font-size: 16px;
-    color: rgb(45, 85, 70);
+    color: rgb(30, 60, 45);
 }
 
 .reflection-title ul {
@@ -235,6 +237,7 @@ nav a:hover {
     font-family: "Noto Sans", sans-serif;
     font-weight: bold;
     text-align: center;
+    color: white;
 }
 
 .screenshot {
