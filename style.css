@@ -182,7 +182,7 @@ nav a:hover {
 }
 
 .box:hover {
-    background-color: rgb(100, 160, 130);
+    background-color: rgb(150, 210, 180);
     transform: scale(1.05);
     color: white;
 }
