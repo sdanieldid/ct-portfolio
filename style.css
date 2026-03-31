@@ -22,7 +22,7 @@ body {
     align-items: center;
     gap: 10px;
     font-size: medium;
-    color: rgb(0, 0, 0);
+    color: rgb(20, 50, 35);
     font-size: 50px;
 }
 
@@ -44,6 +44,7 @@ body {
     font-size: 20px;
     margin-top: 10px;
     font-weight: normal;
+    color: white;
 }
 
 p {
@@ -51,7 +52,7 @@ p {
     max-width: 800px;
     font-size: 18px;
     line-height: 1.6;
-    color: rgb(60, 120, 100);
+    color: rgb(20, 50, 35);
 }
 
 .bio {
@@ -60,7 +61,7 @@ p {
     max-width: 800px;
     font-size: 18px;
     line-height: 1.6;
-    color: rgb(60, 120, 100);
+    color: rgb(20, 50, 35);
     font-weight: 500;
 }
 
@@ -107,7 +108,7 @@ header h1 {
 
 
 nav {
-    background-color: rgba(120, 180, 150, 0.9);
+    background-color: rgba(80, 160, 120, 0.95);
     border: 3px solid rgb(150, 210, 180);
     border-radius: 15px;
     padding: 15px 25px;
@@ -166,8 +167,8 @@ nav a:hover {
     height: 100px;
     margin: 20px;
     display: flex;
-    background-color: rgb(80, 140, 110);
-    border: 3px solid rgb(60, 120, 90);
+    background-color: rgb(60, 120, 90);
+    border: 3px solid rgb(40, 100, 70);
     animation-name: fadeInUp;
     animation-duration: 1s;
     animation-fill-mode: backwards;
