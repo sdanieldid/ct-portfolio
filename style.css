@@ -5,6 +5,23 @@ body {
     padding: 0;
 }
 
+.project-page {
+    min-height: 100vh;
+    padding: 32px 20px 40px;
+    box-sizing: border-box;
+    background: linear-gradient(to right, rgb(220, 245, 230), rgb(150, 210, 180));
+}
+
+.embed-card {
+    margin: 0 auto;
+    padding: 12px;
+    border: 2px solid rgb(100, 160, 130);
+    border-radius: 12px;
+    outline: 2px solid rgba(100, 160, 130, 0.6);
+    width: 90%;
+    height: 910px;
+    display: block;
+}
 
 .kumbh-sans-body {
     font-family: "Kumbh Sans", sans-serif;
@@ -197,29 +214,21 @@ nav a:hover {
     animation-delay: 0.75s;
 }
 
-.reflection-title {
+.project-title-description {
     text-align: center;
     margin: 30px auto;
     color: rgb(60, 120, 100);
 }
 
-.reflection-title h1 {
+.project-title-description h1 {
     font-size: 38px;
     font-weight: 700;
     margin-bottom: 8px;
 }
 
-.reflection-title p {
+.project-title-description p {
     font-size: 16px;
     color: rgb(30, 60, 45);
-}
-
-.reflection-title ul {
-    text-align: left;
-    margin: 20px auto;
-    max-width: 600px;
-    list-style-type: disc;
-    padding-left: 20px;
 }
 
 .footer-square {
